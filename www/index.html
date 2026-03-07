@@ -365,10 +365,7 @@
     <p style="color:var(--muted);font-size:.86rem;line-height:1.6">
       Remove <span id="delete-code-label" style="color:var(--accent);font-weight:700;font-family:monospace"></span> from this list?
     </p>
-    <div style="font-size:.76rem;color:var(--danger);margin-top:10px;display:flex;gap:6px;align-items:flex-start">
-      <svg width="13" height="13" style="flex-shrink:0;margin-top:1px"><use href="#icon-alert"/></svg>
-      The API has no DELETE endpoint — the code may still resolve in Redis until it expires.
-    </div>
+
     <div class="modal-actions">
       <button class="btn btn-ghost btn-sm" onclick="closeModal()">Cancel</button>
       <button class="btn btn-danger btn-sm" onclick="confirmDelete()">Delete</button>

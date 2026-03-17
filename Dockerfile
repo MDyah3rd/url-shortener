@@ -22,6 +22,7 @@ RUN STUDENT_ID=$(cat student_id.txt) && \
 # Set build timestamp as environment variable
 # Accept BUILD_TIME as build argument
 ARG BUILD_TIME
+ENV BUILD_TIME=$BUILD_TIME
 
 # If BUILD_TIME not provided, generate it during build and save to file
 # If provided, use it and save to file
